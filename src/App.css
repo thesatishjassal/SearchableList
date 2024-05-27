@@ -1,0 +1,52 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.card {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 0 0 #3f3f3f26;
+  border: 1px solid #0000001c;
+  margin: 20px auto;
+}
+.card ul.contries__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.card li.list-items {
+  display: block;
+  width: auto;
+  max-width: 100%;
+}
+input.form-control {
+  width: 100%;
+  display: block;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 15px;
+}
